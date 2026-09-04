@@ -12,6 +12,17 @@
             //    Console.WriteLine("You can borrow this book");
             //}
             #endregion
+
+            #region q2
+            //string title = "Refactoring";
+            //string sol = title switch
+            //{
+            //    "Clean Code" => "Great choice!",
+            //    "Refactoring" => "Nice pick!",
+            //    _ => "Never heard of it"
+            //};
+            //Console.WriteLine(sol);
+            #endregion
         }
     }
 }
