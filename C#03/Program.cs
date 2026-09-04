@@ -1,4 +1,6 @@
-﻿namespace C_03
+﻿using Microsoft.VisualBasic.FileIO;
+
+namespace C_03
 {
     internal class Program
     {
@@ -25,10 +27,20 @@
             #endregion
 
             #region q3 
-            int pages = 464;
-            string sol = (pages > 300) ? "Long Book" : "Short Book";
-            Console.WriteLine(sol);
+            //int pages = 464;
+            //string sol = (pages > 300) ? "Long Book" : "Short Book";
+            //Console.WriteLine(sol);
             #endregion
+
+            #region q4 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int i = 0; 
+            //foreach (string book in books)
+            //{
+            //    i++;
+            //    Console.WriteLine( $"  {i}){book}" );
+            //}
+            #endregion 
         }
     }
 }
