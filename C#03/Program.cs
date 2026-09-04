@@ -4,6 +4,19 @@ namespace C_03
 {
     internal class Program
     {
+        #region q10 
+        //static void PrintFirstBook(string[] arr  ) 
+        //{
+        //    if (arr[0] == null || arr[0] == "" || arr[0] == " ")
+        //    {
+        //        return;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine(arr[0]);
+        //    }
+        //}
+        #endregion 
         static void Main(string[] args)
         {
             #region q1
@@ -81,7 +94,7 @@ namespace C_03
             //}
             #endregion
 
-            //#region q9 
+            #region q9 
             //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
             //int j = 0;
             //for (int i = 0; i < books.Length; i++)
@@ -93,7 +106,12 @@ namespace C_03
             //    j++;
             //        Console.WriteLine($"{j}){books[i]}");
             //}
-            //#endregion
+            #endregion
+
+            #region q10 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //PrintFirstBook(books);
+            #endregion
         }
     }
 }
