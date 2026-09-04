@@ -50,6 +50,15 @@ namespace C_03
             //    Console.WriteLine($"{i + 1}){books[i]}");
             //    i++;
             //}
+            #endregion
+
+            #region q6 
+            //int i = 0;
+            //do
+            //{
+            //    Console.WriteLine("Checking book...");
+            //    i++;
+            //} while (i <=2);
             #endregion 
         }
     }
