@@ -40,6 +40,16 @@ namespace C_03
             //    i++;
             //    Console.WriteLine( $"  {i}){book}" );
             //}
+            #endregion
+
+            #region q5 
+            //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
+            //int i = 0; 
+            //while (books[i]!= null)
+            //{
+            //    Console.WriteLine($"{i + 1}){books[i]}");
+            //    i++;
+            //}
             #endregion 
         }
     }
