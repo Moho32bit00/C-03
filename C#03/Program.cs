@@ -34,11 +34,9 @@ namespace C_03
 
             #region q4 
             //string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
-            //int i = 0; 
-            //foreach (string book in books)
+            //for ( int i = 0; i < books.Length; i++)
             //{
-            //    i++;
-            //    Console.WriteLine( $"  {i}){book}" );
+            //    Console.WriteLine($"{i+1}){books[i]}");
             //}
             #endregion
 
@@ -59,7 +57,9 @@ namespace C_03
             //    Console.WriteLine("Checking book...");
             //    i++;
             //} while (i <=2);
-            #endregion 
+            #endregion
+
+
         }
     }
 }
